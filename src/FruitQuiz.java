@@ -14,7 +14,7 @@ public class FruitQuiz extends KeyAdapter {
 
 	void makeQuestions() {
 		question1 = new JLabel(
-				"<html>Which is not a real animal? <br> A: Flubber Monkey <br> B: Pink Fairy Armadillo <br> C: Dumbo Octopus</html>");
+				"<html>Which is not a real fruit? <br> A: Dragon Fruit <br> B: Durian <br> C: Crazyberry</html>");
 		// 11. Make another question called "question2"
 		
 	}
@@ -25,13 +25,13 @@ public class FruitQuiz extends KeyAdapter {
 		// 1. Print out the key code variable
 		
 
-		// 2. Make 3 variables that hold the key codes for apple, banana and carrot
+		// 2. Make 3 variables that hold the key codes for A, b, and C
 
 		
 
 		
 		if (question1.isShowing()) {
-			// 3. If they touched the right fruit, do steps 4 and 7
+			// 3. If they selected the right fruit, do steps 4 and 7
 			
 				// 4. Call the correct() method
 				
